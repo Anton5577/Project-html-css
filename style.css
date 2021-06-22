@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+
+.Header {
+	position: fixed;
+	background-color: #FFFFFF;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+	z-index: 1000;
+}
+.Header_body {
+	display: flex;
+	justify-content: space-between;
+	height: 72px;
+
+}
+.Header_logo {
+	margin: 26px 0;
+}
+.Header_items {
+	display: flex;
+
+}
+.Header_signin {
+	margin: 16px;
+}
+.Header_basket {
+	margin: 0 30px 0 0;
+}
+.Search {
+	margin: 128px auto 0;
+	height: 24px;
+}
+.form_search {
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+}
+.form_search > input {
+	width: 100%;
+	border: none;
+	outline: none;
+	opacity: 50%;
+	background: transparent;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+.card__time {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+color: #1D1D1D;
+}
+.card__text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #626262;
+}
+.card__title {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+color: #1D1D1D;
+}
+.h {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 34px;
+color: #1D1D1D;
+}
+.Card {
+	margin-bottom: 36px;
+}
+.card__img {
+	height: 256px;
+}
+.Spisok {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.button-up {
+	position: fixed;
+	bottom: 45px;
+	right: 45px;
+	opacity: 50%;
+}
+.Footer {
+	background-color: #262626;
+	margin-top: 80px;  
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -100px;
+	
+	
+  }
+.FooterLogo {
+	margin-bottom: 40px;
+	padding-top: 55px;
+}
+.line {
+	height: 1px;
+	background: #ffffff;
+	opacity: 40%;
+}
+.links {
+	margin-bottom: 48px;
+}
+#lang {
+	width:60%;
+	height:40px;
+	background-color:#3b3b3b;
+	border:none;
+	font-size:13px;
+	line-height:15px;
+	color:#fff;
+	font-family: sans-serif;
+}
+.shape {
+	background-color: #3b3b3b; 
+	padding: 10px;
+	
+}
+.leftcontent {
+	display: flex;
+	margin-top: 20px;
+}
+.hash {
+	margin: 40px 40px 20px 0px;
+	color: #FFFFFF;
+	font-family: Roboto;
+}
+.hashtag {
+	color: #49A144;
+}
+a {
+	text-decoration: none;
+}
+footer a {
+	color: #FFFFFF;
+	font-family: Roboto, sans-serif;
+	font-style: Regular;
+	font-size: 13px;
+}
+.download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+}
+.download a {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.footeroffooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 93px;
+}
+.social a {
+	padding: 3px;
+}
+.social {
+	margin-left: -3px;
+	margin-bottom: 48px;
+}
+
